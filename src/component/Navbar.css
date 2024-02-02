@@ -1,0 +1,100 @@
+/* Existing Navbar Styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: azure;
+  padding: 20px 80px;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #192124;
+  transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #5ccaf2;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: " ";
+  width: 37%;
+  height: 2px;
+  background-color: #081317;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#mobile {
+  display: none;
+}
+
+#mobile i {
+  color: #192124;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  nav {
+    padding: 20px 40px;
+    position: relative; /* Decrease padding for smaller screens */
+  }
+
+  #navbar {
+    display: none; /* Hide navbar items by default on smaller screens */
+    position: absolute;
+    top: 0;
+    left: 0; /* Position the mobile menu on the left side */
+    width: 100%;
+    background: azure;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+    padding: 40px 0 0 10px; /* Adjust padding */
+    z-index: 1;
+  }
+
+  #navbar.active {
+    display: flex; /* Show navbar items when active */
+    flex-direction: column; /* Align items in a column */
+    align-items: flex-start; /* Align items to the left */
+    position: absolute; /* Position the active navbar absolutely */
+    top: 0; /* Position the active navbar at the top */
+    right: 100%; /* Position the active navbar on the right side */
+    width: 50%; /* Adjust width as needed */
+    background: azure; /* Set background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+    padding: 20px; /* Adjust padding */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+
+  #mobile {
+    display: flex; /* Show mobile menu icon */
+    align-items: center;
+    cursor: pointer;
+    z-index: 2; /* Ensure mobile icon is above navbar items */
+  }
+
+  #mobile li {
+    font-size: 20px; /* Adjust font size of mobile menu items */
+    cursor: pointer;
+  }
+}

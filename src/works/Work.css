@@ -1,0 +1,226 @@
+/* Work.css */
+.works {
+  padding: 0 1rem; /* Reduce horizontal padding for smaller screens */
+  flex-direction: row;
+
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  
+  
+}
+
+/* Left side */
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  
+  
+}
+
+.awesome > span {
+  font-size: 18px; /* Decrease font size for smaller screens */
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 3.5rem;
+  font-weight: bold; /* Adjust font size for heading */
+}
+
+.awesome > :nth-child(2) {
+  color: var(--gray);
+  font-size: 2.1rem;
+  font-weight: bold; /* Adjust font size for subheading */
+}
+
+  
+  
+  /* right side */
+  .w-right {
+    position: relative;
+    margin: 8rem;
+    flex-direction: column;
+  }
+  
+  .w-mainCircle {
+
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 0px #0e0d0d;
+    top: 2rem;
+    background: #ff0000;
+    z-index: 2;
+  }
+  .w-mainCircle > * {
+    position: absolute;
+  }
+  .w-mainCircle > :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+    box-shadow:0 0 20px 0px rgba(162,174,182,0.8);
+    
+  }
+  .w-mainCircle > :nth-child(2) {
+    left: -3rem;
+    top: 5rem;
+    box-shadow:0 0 20px 0px rgba(162,174,182,0.8);
+    
+  }
+  .w-mainCircle > :nth-child(3) {
+    left: 6rem;
+    top: 5rem;
+    box-shadow:0 0 20px 0px rgba(162,174,182,0.8);
+    
+  }
+  .w-mainCircle > :nth-child(4) {
+    left: 15rem;
+    top: 5rem;
+    box-shadow:0 0 20px 0px rgba(162,174,182,0.8);
+    
+  }
+  .w-mainCircle > :nth-child(5) {
+    left: 6rem;
+    top: 13rem;
+    box-shadow:0 0 20px 0px rgba(162,174,182,0.8);
+    
+  }
+  .w-secCircle {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid rgb(247, 37, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: "none";
+    box-shadow:0 0 20px 0px rgba(162,174,182,0.8);
+    background: white;
+  }
+  
+  .w-secCircle > img {
+    transform: scale(0.15);
+  }
+  
+  .w-backCircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    /* darkMode */
+    z-index: 1;
+  }
+  .blueCircle {
+    background: #00fdfd;
+    left: 10rem;
+    top: 0rem;
+  }
+  .yellowCircle {
+    background: #ffd700;
+    left: 10rem;
+    top: 8rem;
+  }
+  
+  /* Work.css */
+
+/* Adjust styles for smaller screens */
+/* Work.css */
+
+/* Work.css */
+
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  /* Adjust profile container */
+   /* Adjust profile container */
+   .works {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust awesome container */
+  .awesome {
+    margin: 20px; /* Add margin for spacing */
+    text-align: center; /* Center align the content */
+  }
+
+  /* Adjust span elements */
+  .awesome > span {
+    display: block; /* Make each span element a block to appear in new line */
+    font-size: 1rem; /* Set font size for all spans */
+    margin-bottom: 10px; /* Add spacing below each span */
+  }
+
+  /* Adjust heading font size */
+  .awesome > span:first-child {
+    font-size: 2.5rem; /* Increase font size for the heading */
+    margin-bottom: 20px; /* Add more spacing below the heading */
+  }
+  /* Adjust circle container */
+  .w-right {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Adjust main circle */
+  .w-mainCircle {
+    width: 15rem; /* Increase width of the main circle */
+    height: 15rem; /* Increase height of the main circle */
+    left: -2rem; /* Adjust position of the main circle */
+    transform: translateX(-80%); /* Adjust position of the main circle */
+  }
+
+  /* Adjust child circles */
+  .w-mainCircle > :nth-child(1),
+  .w-mainCircle > :nth-child(2),
+  .w-mainCircle > :nth-child(3),
+  .w-mainCircle > :nth-child(4),
+  .w-mainCircle > :nth-child(5) {
+    box-shadow: 0 0 15px 0px rgba(162, 174, 182, 0.8); /* Adjust shadow for child circles */
+  }
+
+  /* Adjust positions of child circles */
+  .w-mainCircle > :nth-child(1) {
+    top: -2.8rem; /* Adjust top position of the first child circle */
+    left: 4rem; /* Adjust left position of the first child circle */
+  }
+
+  .w-mainCircle > :nth-child(2) {
+    left: -1.9rem; /* Adjust left position of the second child circle */
+    top: 4.5rem; /* Adjust top position of the second child circle */
+  }
+
+  .w-mainCircle > :nth-child(3) {
+    left: 5rem; /* Adjust left position of the third child circle */
+    top: 4rem; /* Adjust top position of the third child circle */
+  }
+
+  .w-mainCircle > :nth-child(4) {
+    left: 12rem; /* Adjust left position of the fourth child circle */
+    top: 5rem; /* Adjust top position of the fourth child circle */
+  }
+
+  .w-mainCircle > :nth-child(5) {
+    left: 4rem; /* Adjust left position of the fifth child circle */
+    top: 11rem; /* Adjust top position of the fifth child circle */
+  }
+
+  /* Adjust background circles */
+  .blueCircle,
+  .yellowCircle {
+    left: 3rem; /* Adjust left position of the background circles */
+    transform: translateX(-90%); /* Adjust translation of the background circles */
+    transform: translateY(-10%); /* Adjust translation of the background circles */
+  }
+}
+
+
+
+
