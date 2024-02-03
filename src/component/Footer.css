@@ -96,40 +96,29 @@ a{
   color: rgb(136, 255, 1);
   text-decoration: none;
 }
-.social_media{
-  display:flex;
-  flex-direction: row;
-}
-.social_media .fa-facebook-square{
+
+.social_media .fa-envelope-square{
   display: inline;
   margin:2px;
   color: #FFD700;
 }
-.social_media .fa-google-plus-square{
+.social_media .fa-linkedin{
   display: inline;
-  margin:2px;
+  margin:3px;
   color: #FFD700;
 }
-.social_media .fa-linkedin-square{
+.social_media .fa-code{
   display: inline;
-  margin:2px;
+  margin:3px;
   color: #FFD700;
 }
-.social_media .fa-instagram-square{
+
+.social_media .fa-github{
   display: inline;
-  margin:2px;
+  margin:3px;
   color: #FFD700;
 }
-.social_media .fa-instagram-square{
-  display: inline;
-  margin:2px;
-  color: #FFD700;
-}
-.social_media .fa-twitter-square{
-  display: inline;
-  margin:2px;
-  color: #FFD700;
-}
+
 .sab_footer_links_div h4{
   font-size: 14px;
   line-height: 17px;

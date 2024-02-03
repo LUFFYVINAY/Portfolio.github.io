@@ -78,17 +78,17 @@ const Footer = () => {
           <div className="sab_footer_links_div">
             <h4>Available on </h4>
             <div className="social_media">
-              <a href="index.html">
-                <i className="fa fa-google-plus-square"></i>
+              <a href="https://mail.google.com/mail/u/0/#inbox">
+                <i className="fa fa-envelope-square"></i>
               </a>
-              <a href="index.html">
-                <i className="fa fa-linkedin-square"></i>
+              <a href="https://www.linkedin.com/in/vinaykumar-singh-6b3638248/">
+                <i className="fa fa-linkedin"></i>
               </a>
-              <a href="index.html">
-                <i className="fa fa-instagram-square"></i>
+              <a href="https://leetcode.com/M_D_L/">
+                <i className="fa fa-code"></i>
               </a>
-              <a href="index.html">
-                <i className="fa fa-twitter-square"></i>
+              <a href="https://github.com/LUFFYVINAY?tab=repositories/">
+                <i className="fa fa-github"></i>
               </a>
             </div>
           </div>

@@ -20,7 +20,7 @@ const Aboutme = () => {
           key={1} // Add key prop here
           loop={Infinity}
           steps={[
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed",
+            "By harnessing live user location and Google libraries, the platform’s integration of AR models ensures 95% accurate real-time weatherinformation, enhancing user experience an decision-making capabilitie",
             1000,
           ]}
         />
@@ -34,7 +34,7 @@ const Aboutme = () => {
           key={2} // Add key prop here
           loop={Infinity}
           steps={[
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed",
+            "A fully responsive platform, hosted by Streamlit Serve,boosting productivity by 30% and enhancing organization with 20% efficiency gains,30% increase in task completion rates and a 25% improvement in user satisfaction.",
             1000,
           ]}
         />
@@ -48,7 +48,7 @@ const Aboutme = () => {
           key={3} // Add key prop here
           loop={Infinity}
           steps={[
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed",
+            "This fully responsive website seamlessly integrates authentication, messaging, and visually captivating UI with ReactJS's Material UI, yielding a 95% efficiency boost in user engagement and a 30% reduction in loading time.",
             1000,
           ]}
         />
@@ -62,7 +62,7 @@ const Aboutme = () => {
           key={4} // Add key prop here
           loop={Infinity}
           steps={[
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed",
+            "platform optimizes fantasy sports engagement, boasting a 40% increase in user participation and a 25% enhancement in revenue generation.  resulting in a 30% rise in user retention and a 20% improvement in profitability",
             1000,
           ]}
         />
@@ -107,7 +107,7 @@ const Aboutme = () => {
               <SwiperSlide key={index} className="testimonial-slide">
                 <div className="testimonial">
                   <div>
-                    <a href=" # ">
+                    <a href=" https://github.com/LUFFYVINAY?tab=repositories ">
                       <button className="btn highlighted-text">
                         <p>code</p>
                       </button>

@@ -22,31 +22,27 @@
   font-size: 43px;
   font-family: "Poppins", sans-serif;
 }
-.colz .fa-facebook-square{
+.colz .fa-envelope-square{
   display: inline;
   margin:2px;
-  color: #080808;
+  color: #000000;
 }
-.colz .fa-google-plus-square{
+.colz .fa-linkedin{
   display: inline;
-  margin:2px;
-  color: #080808;
+  margin:3px;
+  color: #000000;
 }
-.colz .fa-linkedin-square{
+.colz .fa-code{
   display: inline;
-  margin:2px;
-  color: #080808;
+  margin:3px;
+  color: #000000;
 }
-.colz .fa-instagram-square{
+.colz .fa-github{
   display: inline;
-  margin:2px;
-  color: #080808;
+  margin:3px;
+  color: #000000;
 }
-.colz .fa-instagram-square{
-  display: inline;
-  margin:2px;
-  color: #080808;
-}
+
 .colz .fa-twitter-square{
   display: inline;
   margin:2px;
